@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoş Geldiniz</title>
+    <style>
+        /* CSS Kodları */
+        
+        body {
+            /* Arkaplanı tamamen siyah yapar */
+            background-color: #111111; 
+            
+            /* Metni beyaz yapar */
+            color: #ffffff; 
+            
+            /* Sayfanın tamamını kaplamasını sağlar */
+            height: 100vh; 
+            margin: 0;
+            
+            /* İçeriği ortalamak için Flexbox kullanır */
+            display: flex;
+            justify-content: center; /* Yatayda ortala */
+            align-items: center;    /* Dikeyde ortala */
+            
+            /* Metin fontu ve boyutu */
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+        }
+
+        .welcome-message {
+            /* Mesaj kutusu için stil */
+            text-align: center;
+            padding: 20px 40px;
+            border: 2px solid #333333; /* Hafif gri bir çerçeve ekler */
+            border-radius: 8px; /* Köşeleri yuvarlar */
+        }
+        
+        /* Başlık stili */
+        h1 {
+            font-size: 3em; /* Daha büyük font */
+            margin-bottom: 0.5em;
+            color: #00bcd4; /* Hoş bir mavi-turkuaz vurgu rengi */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="welcome-message">
+        <h1>HOŞ GELDİNİZ</h1>
+        <p>Bu, dosya ve not paylaşım platformunuzun başlangıç sayfasıdır.</p>
+        <p>Yükleme, paylaşma ve not alma işlemlerine başlamak için hazırız!</p>
+    </div>
+
+</body>
+</html>
